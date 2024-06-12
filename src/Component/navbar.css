@@ -763,7 +763,6 @@ footer a p{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-    
 }
 /* @media(max-width:414px){
     header, header.sticky {
@@ -824,7 +823,7 @@ footer a p{
     .professional {
         gap: 10px;
         height: 451px;
-    }
+    }   1q2`
 } */
 @media (max-width: 600px) and (min-width:400px){
     header, header.sticky {
@@ -838,7 +837,7 @@ footer a p{
         display: block;
         transition: all 0.5s ease;
         transform: rotate(0deg); 
-        margin-right: 20px;
+        margin-right: 57px;
     }
     .navlist {
         display: flex;
@@ -886,5 +885,11 @@ footer a p{
     .professional {
         gap: 10px;
 
+    }
+    .skill-bar .info {
+      width: 100%;
+    }
+    .skill-left .skill-bar .bar {
+        width: 318px;
     }
 }
